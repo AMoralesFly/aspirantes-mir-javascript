@@ -1,17 +1,16 @@
 function calcularColor(num) {
-var color ;
+let color = "" ;
 if (num === 1) {
-    color = "Negro/black"
+    color = "Negro";
 } else if (num === 2) {
-    color = "blanco/white"
+    color = "blanco";
 } else if (num === 3) {
-   color = "azul/blue"
-}
-else {
-    color = "verde/green"
+   color = "azul";
+}else {
+    color = "verde";
 }
 
-return color
+return color;
 
 }
 

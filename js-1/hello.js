@@ -1,6 +1,6 @@
 function hola(name) {
- const saludo ="hola " + name+ "!";
-  return saludo ;
+  const saludo = "hola " + name + "!";
+  return saludo;
 }
 
 

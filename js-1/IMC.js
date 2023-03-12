@@ -1,7 +1,9 @@
-function bmi(weight,height) {
- if(weight> 0 && height> 0) {
- const imc = weight/(height**2);
- return imc;
+function bmi(weight, height) {
+    if (weight > 0 && height > 0) {
+        const imc = weight / (height ** 2);
+        return imc;
+    }
+    return 0;
 }
 
 console.log(bmi(65, 1.8))

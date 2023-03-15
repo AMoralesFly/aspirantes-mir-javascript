@@ -1,9 +1,8 @@
 
 function sum(arr) {
-    if (arr === 0) {
-        return 0
-    }
-    else {
+    if (arr.length === 0) {
+        return 0;
+    } else {
         let sumaElementos = 0;
         for (let i = 0; i < arr.length; i++) {
             sumaElementos = sumaElementos + arr[i];

@@ -1,14 +1,19 @@
 function join(arr) {
-let resultado = "" ;
-for (let i = 0; i < arr.length; i++) {
-    resultado = resultado + arr[i]
-if(i !== arr.length - 1) {
-    resultado = resultado + " ";
-}
-    
-}
+    let resultado = "";
+    if (arr.length === 0) {
+        return " ";
+    }
+    else {
 
-return resultado
+        for (let i = 0; i < arr.length; i++) {
+            resultado = resultado + arr[i]
+            if (i !== arr.length - 1) {
+                resultado = resultado + " ";
+            }
+        }
+    }
+
+    return resultado
 }
 
 console.log(join(["Hola", "Mundo"])) // "Hola Mundo"

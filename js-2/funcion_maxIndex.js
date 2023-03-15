@@ -5,13 +5,13 @@ function maxIndex(arr) {
     let maxIndex = 0;
     let nunMayor = arr[0];
     for (let i = 1; i < arr.length; i++) {
-         if ( arr[i] > nunMayor) {
+        if (arr[i] > nunMayor) {
             maxIndex = i;
             nunMayor = arr[i];
         }
     }
-    
-    return maxIndex; 
+
+    return maxIndex;
 }
 
 console.log(maxIndex([1, 3, 2])) // 1

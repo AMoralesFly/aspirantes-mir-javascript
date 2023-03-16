@@ -8,7 +8,6 @@ function join(arr) {
         }
     }
     return resultado;
-
 }
 
 
